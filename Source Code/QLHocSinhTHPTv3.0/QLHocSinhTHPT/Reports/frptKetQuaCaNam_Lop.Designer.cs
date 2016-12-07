@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupPanelDS = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.btnXem = new DevComponents.DotNetBar.ButtonX();
@@ -36,25 +37,22 @@
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.cmbNamHoc = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.labelX0 = new DevComponents.DotNetBar.LabelX();
+            this.gvHocLuc = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.calendarColumn1 = new QLHocSinhTHPT.Component.CalendarColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.calendarColumn1 = new QLHocSinhTHPT.Component.CalendarColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bSKQCNTH = new System.Windows.Forms.BindingSource(this.components);
-            this.gvHocLuc = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.MaHocSinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GioiTinh = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.NgaySinh = new QLHocSinhTHPT.Component.CalendarColumn();
             this.DTBCaNam = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenHocLuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenHanhKiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupPanelDS.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bSKQCNTH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvHocLuc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bSKQCNTH)).BeginInit();
             this.SuspendLayout();
             // 
             // groupPanelDS
@@ -143,6 +141,34 @@
             this.labelX0.TabIndex = 0;
             this.labelX0.Text = "Năm học:";
             // 
+            // gvHocLuc
+            // 
+            this.gvHocLuc.AllowUserToAddRows = false;
+            this.gvHocLuc.AllowUserToResizeColumns = false;
+            this.gvHocLuc.AllowUserToResizeRows = false;
+            this.gvHocLuc.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
+            this.gvHocLuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.gvHocLuc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaHocSinh,
+            this.HoTen,
+            this.DTBCaNam,
+            this.TenHocLuc});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gvHocLuc.DefaultCellStyle = dataGridViewCellStyle2;
+            this.gvHocLuc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gvHocLuc.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.gvHocLuc.Location = new System.Drawing.Point(0, 58);
+            this.gvHocLuc.Name = "gvHocLuc";
+            this.gvHocLuc.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.gvHocLuc.Size = new System.Drawing.Size(792, 408);
+            this.gvHocLuc.TabIndex = 4;
+            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHocSinh";
@@ -166,14 +192,6 @@
             this.dataGridViewTextBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn3.Width = 120;
             // 
-            // calendarColumn1
-            // 
-            this.calendarColumn1.DataPropertyName = "NgaySinh";
-            this.calendarColumn1.HeaderText = "Ngày Sinh";
-            this.calendarColumn1.Name = "calendarColumn1";
-            this.calendarColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.calendarColumn1.Width = 120;
-            // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "DTBCaNam";
@@ -182,6 +200,14 @@
             this.dataGridViewTextBoxColumn4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewTextBoxColumn4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn4.Width = 120;
+            // 
+            // calendarColumn1
+            // 
+            this.calendarColumn1.DataPropertyName = "NgaySinh";
+            this.calendarColumn1.HeaderText = "Ngày Sinh";
+            this.calendarColumn1.Name = "calendarColumn1";
+            this.calendarColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.calendarColumn1.Width = 120;
             // 
             // dataGridViewTextBoxColumn5
             // 
@@ -201,42 +227,12 @@
             // 
             this.bSKQCNTH.DataSource = typeof(QLHocSinhTHPT.Bussiness.KQCaNamTongHopInfo);
             // 
-            // gvHocLuc
-            // 
-            this.gvHocLuc.AllowUserToAddRows = false;
-            this.gvHocLuc.AllowUserToResizeColumns = false;
-            this.gvHocLuc.AllowUserToResizeRows = false;
-            this.gvHocLuc.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(243)))), ((int)(((byte)(250)))));
-            this.gvHocLuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.gvHocLuc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MaHocSinh,
-            this.HoTen,
-            this.GioiTinh,
-            this.NgaySinh,
-            this.DTBCaNam,
-            this.TenHocLuc,
-            this.TenHanhKiem});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gvHocLuc.DefaultCellStyle = dataGridViewCellStyle1;
-            this.gvHocLuc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gvHocLuc.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.gvHocLuc.Location = new System.Drawing.Point(0, 58);
-            this.gvHocLuc.Name = "gvHocLuc";
-            this.gvHocLuc.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.gvHocLuc.Size = new System.Drawing.Size(792, 408);
-            this.gvHocLuc.TabIndex = 4;
-            // 
             // MaHocSinh
             // 
             this.MaHocSinh.DataPropertyName = "MaHocSinh";
             this.MaHocSinh.HeaderText = "Mã HS";
             this.MaHocSinh.Name = "MaHocSinh";
+            this.MaHocSinh.Width = 150;
             // 
             // HoTen
             // 
@@ -245,35 +241,22 @@
             this.HoTen.HeaderText = "Họ Tên";
             this.HoTen.Name = "HoTen";
             // 
-            // GioiTinh
-            // 
-            this.GioiTinh.DataPropertyName = "GioiTinh";
-            this.GioiTinh.HeaderText = "Giới Tính Nữ";
-            this.GioiTinh.Name = "GioiTinh";
-            // 
-            // NgaySinh
-            // 
-            this.NgaySinh.DataPropertyName = "NgaySinh";
-            this.NgaySinh.HeaderText = "Ngày Sinh";
-            this.NgaySinh.Name = "NgaySinh";
-            // 
             // DTBCaNam
             // 
             this.DTBCaNam.DataPropertyName = "DTBCaNam";
+            dataGridViewCellStyle1.Format = "N2";
+            dataGridViewCellStyle1.NullValue = null;
+            this.DTBCaNam.DefaultCellStyle = dataGridViewCellStyle1;
             this.DTBCaNam.HeaderText = "Điểm TB";
             this.DTBCaNam.Name = "DTBCaNam";
+            this.DTBCaNam.Width = 150;
             // 
             // TenHocLuc
             // 
             this.TenHocLuc.DataPropertyName = "TenHocLuc";
             this.TenHocLuc.HeaderText = "Học Lực";
             this.TenHocLuc.Name = "TenHocLuc";
-            // 
-            // TenHanhKiem
-            // 
-            this.TenHanhKiem.DataPropertyName = "TenHanhKiem";
-            this.TenHanhKiem.HeaderText = "Hạnh Kiểm";
-            this.TenHanhKiem.Name = "TenHanhKiem";
+            this.TenHocLuc.Width = 150;
             // 
             // frptKetQuaCaNam_Lop
             // 
@@ -290,8 +273,8 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frptKetQuaCaNam_Lop_Load);
             this.groupPanelDS.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bSKQCNTH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvHocLuc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bSKQCNTH)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -314,10 +297,7 @@
         private DevComponents.DotNetBar.Controls.DataGridViewX gvHocLuc;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaHocSinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn HoTen;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn GioiTinh;
-        private Component.CalendarColumn NgaySinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn DTBCaNam;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenHocLuc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TenHanhKiem;
     }
 }

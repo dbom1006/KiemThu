@@ -8,21 +8,15 @@ namespace QLHocSinhTHPT.Bussiness
     {
         public string MaHocSinh { get; set; }
         public string HoTen { get; set; }
-        public bool GioiTinh { get; set; }
-        public DateTime NgaySinh { get; set; }
         public float DTBCaNam { get; set; }
         public string TenHocLuc { get; set; }
-        public string TenHanhKiem { get; set; }
 
-        public KetQuaHocLucInfo(string ma,string ten,bool gt,DateTime ns,float dtb,string hocluc,string hanhkiem)
+        public KetQuaHocLucInfo(string ma,string ten,float dtb,string hocluc)
         {
             MaHocSinh = ma;
             HoTen = ten;
-            GioiTinh = gt;
-            NgaySinh = ns;
             DTBCaNam = dtb;
             TenHocLuc = hocluc;
-            TenHanhKiem = hanhkiem;
         }
     }
 }

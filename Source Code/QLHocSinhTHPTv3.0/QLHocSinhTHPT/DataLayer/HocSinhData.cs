@@ -1,4 +1,6 @@
-﻿using System;
+﻿using QLHocSinhTHPT.Bussiness;
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -42,7 +44,19 @@ namespace QLHocSinhTHPT.DataLayer
             m_HocSinhData.Load(cmd);
             return m_HocSinhData;
         }
-
+        public List<HocSinhInfo> LayDSHocSinhTheoLop(String namHoc, String lop)
+        {
+            var lst = new List<HocSinhInfo>();
+            DataTable db = LayDsHocSinhTheoLop(namHoc, lop);
+            foreach (DataRow r in db.Rows)
+            {
+                HocSinhInfo hs = new HocSinhInfo();
+                hs.MaHocSinh = r["MaHocSinh"].ToString();
+                hs.HoTen = r["HoTen"].ToString();
+                lst.Add(hs);
+            }
+            return lst;
+        }
         public DataTable LayDsHocSinhTheoNamHoc(String namHoc)
         {
             SqlCommand cmd = new SqlCommand("SELECT PL.MaHocSinh, HS.HoTen, L.TenLop " +
