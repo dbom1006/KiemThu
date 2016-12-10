@@ -146,3 +146,43 @@ D:\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.f
 D:\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmMain.resources
 D:\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Properties.Resources.resources
 D:\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.csproj.GenerateResource.Cache
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.csprojFakesResolveAssemblyReference.cache
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Component.frmConnection.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Component.frmQuyDinh.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Component.frmDoiMatKhau.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Component.frmSplash.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Component.frmDangNhap.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmXemDiem.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmNhapDiemRieng.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmNhapDiemChung.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmTimKiemHS.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmTimKiemGV.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmPhanLop.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmPhanCong.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmLop.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmHocSinh.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmGiaoVien.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmNgheNghiep.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmLoaiNguoiDung.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmNguoiDung.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmLoaiDiem.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmKetQua.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmHanhKiem.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmHocLuc.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmKhoiLop.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmHocKy.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmNamHoc.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmMonHoc.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmTonGiao.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmDanToc.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Reports.frptKetQuaHocKy_MonHoc.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Reports.frptKetQuaHocKy_Lop.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Reports.frptKetQuaCaNam_MonHoc.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Reports.frptKetQuaCaNam_Lop.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Reports.frptDanhSachLopHoc.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Reports.frptDanhSachHocSinh.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Reports.frptDanhSachGiaoVien.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmAbout.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.frmMain.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.Properties.Resources.resources
+E:\HOC TAP\KiemThu\Source Code\QLHocSinhTHPTv3.0\QLHocSinhTHPT\obj\Debug\QLHocSinhTHPT.csproj.GenerateResource.Cache
